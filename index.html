@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>DirectStream</title>
+</head>
+
+<body>
+    <div class="videos">
+        <video id="user-1" autoplay playsinline></video>
+        <video id="user-2" autoplay playsinline></video>
+    </div>
+
+    <div class="controls">
+        <div class="controlItem">
+            <img id="camera" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Video_camera_icon.svg/768px-Video_camera_icon.svg.png" alt="">
+        </div>
+        <div class="controlItem">
+            <img id="mic" src="https://www.iconpacks.net/icons/1/free-microphone-icon-342-thumb.png" alt="">
+        </div>
+        <a href="lobby.html">
+            <div class="controlItem">
+                <img id="leave" src="https://cdn4.iconfinder.com/data/icons/unigrid-flat-devices/90/017_083_phone_decline_hangup_hang_up-512.png" alt="">
+            </div>
+        </a>
+    </div>
+
+
+    <script src="./agora-rtm-sdk-1.5.1.js"></script>
+    <script src="./secret.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
